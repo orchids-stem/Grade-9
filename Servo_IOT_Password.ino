@@ -2,13 +2,13 @@
 #include <WiFi.h> // ESP32 WiFi library
 #include <ESP32Servo.h> //ESP32 Servo library
 /******** Adafruit IO Config ***********/
-#define IO_USERNAME "Akhlk12"    // Replace with your Adafruit IO username
-#define IO_KEY "aio_rKXa802KBUssrj4ExEnlNH4" // Replace with your Adafruit IO key
+#define IO_USERNAME "REPLACE_USERNAME"    // Replace with your Adafruit IO username
+#define IO_KEY "REPLACE_IO_KEY" // Replace with your Adafruit IO key
 
 
 /******** WiFi Config **************/
-#define WIFI_SSID "Abcd"          // Your WiFi SSID
-#define WIFI_PASS "a#@12Aa"     // Your Password
+#define WIFI_SSID "WiFi_Name"          // Your WiFi SSID
+#define WIFI_PASS "Password"     // Your Password
 
 
 Servo myservo;
